@@ -102,6 +102,53 @@
 		88C4583019F5F7A0008FD427 /* JSQMessagesMediaViewBubbleImageMasker.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C4582F19F5F7A0008FD427 /* JSQMessagesMediaViewBubbleImageMasker.m */; };
 		A45AE408202DFC3200A2C88C /* JSQSystemSoundPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A45AE407202DFC3200A2C88C /* JSQSystemSoundPlayer.framework */; };
 		A45AE409202E0B3A00A2C88C /* JSQSystemSoundPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A45AE407202DFC3200A2C88C /* JSQSystemSoundPlayer.framework */; };
+		A45AE40B202E11A500A2C88C /* JSQSystemSoundPlayer+JSQMessages.h in Headers */ = {isa = PBXBuildFile; fileRef = 88A25F5519D8E01A00924534 /* JSQSystemSoundPlayer+JSQMessages.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45AE40C202E11B300A2C88C /* NSBundle+JSQMessages.h in Headers */ = {isa = PBXBuildFile; fileRef = 8873B60A1AB7B244006DF9AC /* NSBundle+JSQMessages.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45AE40D202E11B300A2C88C /* NSString+JSQMessages.h in Headers */ = {isa = PBXBuildFile; fileRef = 88A25F5719D8E01A00924534 /* NSString+JSQMessages.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45AE40E202E11B300A2C88C /* UIColor+JSQMessages.h in Headers */ = {isa = PBXBuildFile; fileRef = 88A25F5919D8E01A00924534 /* UIColor+JSQMessages.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45AE40F202E11B300A2C88C /* UIDevice+JSQMessages.h in Headers */ = {isa = PBXBuildFile; fileRef = 886FFD2C19E9A65D00EB8485 /* UIDevice+JSQMessages.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45AE410202E11B300A2C88C /* UIImage+JSQMessages.h in Headers */ = {isa = PBXBuildFile; fileRef = 88A25F5B19D8E01A00924534 /* UIImage+JSQMessages.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45AE411202E11B300A2C88C /* UIView+JSQMessages.h in Headers */ = {isa = PBXBuildFile; fileRef = 88A25F5D19D8E01A00924534 /* UIView+JSQMessages.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45AE412202E11B900A2C88C /* JSQMessagesKeyboardController.h in Headers */ = {isa = PBXBuildFile; fileRef = 88A25F6019D8E01A00924534 /* JSQMessagesKeyboardController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45AE413202E11B900A2C88C /* JSQMessagesViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 88A25F6219D8E01A00924534 /* JSQMessagesViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45AE414202E11C400A2C88C /* JSQMessagesAvatarImageFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 88A25F6619D8E01A00924534 /* JSQMessagesAvatarImageFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45AE415202E11C400A2C88C /* JSQMessagesBubbleImageFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 88A25F6819D8E01A00924534 /* JSQMessagesBubbleImageFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45AE416202E11C400A2C88C /* JSQMessagesMediaViewBubbleImageMasker.h in Headers */ = {isa = PBXBuildFile; fileRef = 88C4582E19F5F7A0008FD427 /* JSQMessagesMediaViewBubbleImageMasker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45AE417202E11C400A2C88C /* JSQMessagesTimestampFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 88A25F6A19D8E01A00924534 /* JSQMessagesTimestampFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45AE418202E11C400A2C88C /* JSQMessagesToolbarButtonFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 88A25F6C19D8E01A00924534 /* JSQMessagesToolbarButtonFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45AE419202E11D100A2C88C /* JSQMessages.h in Headers */ = {isa = PBXBuildFile; fileRef = 88A25F6E19D8E01A00924534 /* JSQMessages.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45AE41A202E11DA00A2C88C /* JSQAudioMediaViewAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = 544A321F1CB2EE380084BFC0 /* JSQAudioMediaViewAttributes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45AE41B202E11DA00A2C88C /* JSQMessagesBubbleSizeCalculating.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B5C4201B7C424700EC79D4 /* JSQMessagesBubbleSizeCalculating.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45AE41C202E11DA00A2C88C /* JSQMessagesBubblesSizeCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B5C41D1B7C422900EC79D4 /* JSQMessagesBubblesSizeCalculator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45AE41D202E11DA00A2C88C /* JSQMessagesCollectionViewFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 88A25F7019D8E01A00924534 /* JSQMessagesCollectionViewFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45AE41E202E11DA00A2C88C /* JSQMessagesCollectionViewFlowLayoutInvalidationContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 88A25F7219D8E01A00924534 /* JSQMessagesCollectionViewFlowLayoutInvalidationContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45AE41F202E11DA00A2C88C /* JSQMessagesCollectionViewLayoutAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = 88A25F7419D8E01A00924534 /* JSQMessagesCollectionViewLayoutAttributes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45AE420202E11EC00A2C88C /* JSQAudioMediaItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 54271E3C1C905B9200294290 /* JSQAudioMediaItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45AE421202E11EC00A2C88C /* JSQLocationMediaItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 88445B3E19E1B4470014F889 /* JSQLocationMediaItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45AE422202E11EC00A2C88C /* JSQMediaItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 88A901B419F618B100F99777 /* JSQMediaItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45AE423202E11EC00A2C88C /* JSQMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 88A25F7919D8E01A00924534 /* JSQMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45AE424202E11EC00A2C88C /* JSQMessageAvatarImageDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 88A25F7B19D8E01A00924534 /* JSQMessageAvatarImageDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45AE425202E11EC00A2C88C /* JSQMessageBubbleImageDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 88A25F7C19D8E01A00924534 /* JSQMessageBubbleImageDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45AE426202E11EC00A2C88C /* JSQMessageData.h in Headers */ = {isa = PBXBuildFile; fileRef = 88A25F7D19D8E01A00924534 /* JSQMessageData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45AE427202E11EC00A2C88C /* JSQMessageMediaData.h in Headers */ = {isa = PBXBuildFile; fileRef = 88A25F7E19D8E01A00924534 /* JSQMessageMediaData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45AE428202E11EC00A2C88C /* JSQMessagesAvatarImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 88A25F7F19D8E01A00924534 /* JSQMessagesAvatarImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45AE429202E11EC00A2C88C /* JSQMessagesBubbleImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 88A25F8119D8E01A00924534 /* JSQMessagesBubbleImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45AE42A202E11EC00A2C88C /* JSQMessagesCollectionViewDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 88A25F8319D8E01A00924534 /* JSQMessagesCollectionViewDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45AE42B202E11EC00A2C88C /* JSQMessagesCollectionViewDelegateFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 88A25F8419D8E01A00924534 /* JSQMessagesCollectionViewDelegateFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45AE42C202E11EC00A2C88C /* JSQPhotoMediaItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 88A25F8519D8E01A00924534 /* JSQPhotoMediaItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45AE42D202E11EC00A2C88C /* JSQVideoMediaItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 886C33FB19F4371E006B4997 /* JSQVideoMediaItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45AE42E202E11FD00A2C88C /* JSQMessagesCellTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 883C11761A09FB100092A16D /* JSQMessagesCellTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45AE42F202E11FD00A2C88C /* JSQMessagesCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 88A25F8A19D8E01A00924534 /* JSQMessagesCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45AE430202E11FD00A2C88C /* JSQMessagesCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 88A25F8C19D8E01A00924534 /* JSQMessagesCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45AE431202E11FD00A2C88C /* JSQMessagesCollectionViewCellIncoming.h in Headers */ = {isa = PBXBuildFile; fileRef = 88A25F8E19D8E01A00924534 /* JSQMessagesCollectionViewCellIncoming.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45AE432202E11FD00A2C88C /* JSQMessagesCollectionViewCellOutgoing.h in Headers */ = {isa = PBXBuildFile; fileRef = 88A25F9119D8E01A00924534 /* JSQMessagesCollectionViewCellOutgoing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45AE433202E11FD00A2C88C /* JSQMessagesComposerTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 88A25F9419D8E01A00924534 /* JSQMessagesComposerTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45AE434202E11FD00A2C88C /* JSQMessagesInputToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 88A25F9619D8E01A00924534 /* JSQMessagesInputToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45AE435202E11FD00A2C88C /* JSQMessagesLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 88A25F9819D8E01A00924534 /* JSQMessagesLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45AE436202E11FD00A2C88C /* JSQMessagesLoadEarlierHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 88A25F9A19D8E01A00924534 /* JSQMessagesLoadEarlierHeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45AE437202E11FD00A2C88C /* JSQMessagesMediaPlaceholderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 88078A9B19D8FEB5005B4595 /* JSQMessagesMediaPlaceholderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45AE438202E11FD00A2C88C /* JSQMessagesToolbarContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 88A25F9D19D8E01A00924534 /* JSQMessagesToolbarContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45AE439202E11FD00A2C88C /* JSQMessagesTypingIndicatorFooterView.h in Headers */ = {isa = PBXBuildFile; fileRef = 88A25FA019D8E01A00924534 /* JSQMessagesTypingIndicatorFooterView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -146,7 +193,7 @@
 		8885734919DE540400E89D20 /* DemoSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoSettingsViewController.m; sourceTree = "<group>"; };
 		8885734B19DE55D000E89D20 /* NSUserDefaults+DemoSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+DemoSettings.h"; sourceTree = "<group>"; };
 		8885734C19DE55D000E89D20 /* NSUserDefaults+DemoSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+DemoSettings.m"; sourceTree = "<group>"; };
-		88A25F0219D8DEC400924534 /* JSQMessages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSQMessages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88A25F0219D8DEC400924534 /* JSQMessages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSQMessages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88A25F1B19D8DEC500924534 /* JSQMessagesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSQMessagesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88A25F2019D8DEC500924534 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88A25F2C19D8DF2500924534 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -603,6 +650,63 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		A45AE40A202E119300A2C88C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A45AE419202E11D100A2C88C /* JSQMessages.h in Headers */,
+				A45AE422202E11EC00A2C88C /* JSQMediaItem.h in Headers */,
+				A45AE436202E11FD00A2C88C /* JSQMessagesLoadEarlierHeaderView.h in Headers */,
+				A45AE412202E11B900A2C88C /* JSQMessagesKeyboardController.h in Headers */,
+				A45AE414202E11C400A2C88C /* JSQMessagesAvatarImageFactory.h in Headers */,
+				A45AE413202E11B900A2C88C /* JSQMessagesViewController.h in Headers */,
+				A45AE42B202E11EC00A2C88C /* JSQMessagesCollectionViewDelegateFlowLayout.h in Headers */,
+				A45AE40C202E11B300A2C88C /* NSBundle+JSQMessages.h in Headers */,
+				A45AE41A202E11DA00A2C88C /* JSQAudioMediaViewAttributes.h in Headers */,
+				A45AE416202E11C400A2C88C /* JSQMessagesMediaViewBubbleImageMasker.h in Headers */,
+				A45AE40E202E11B300A2C88C /* UIColor+JSQMessages.h in Headers */,
+				A45AE42C202E11EC00A2C88C /* JSQPhotoMediaItem.h in Headers */,
+				A45AE420202E11EC00A2C88C /* JSQAudioMediaItem.h in Headers */,
+				A45AE425202E11EC00A2C88C /* JSQMessageBubbleImageDataSource.h in Headers */,
+				A45AE41E202E11DA00A2C88C /* JSQMessagesCollectionViewFlowLayoutInvalidationContext.h in Headers */,
+				A45AE40D202E11B300A2C88C /* NSString+JSQMessages.h in Headers */,
+				A45AE438202E11FD00A2C88C /* JSQMessagesToolbarContentView.h in Headers */,
+				A45AE423202E11EC00A2C88C /* JSQMessage.h in Headers */,
+				A45AE433202E11FD00A2C88C /* JSQMessagesComposerTextView.h in Headers */,
+				A45AE410202E11B300A2C88C /* UIImage+JSQMessages.h in Headers */,
+				A45AE411202E11B300A2C88C /* UIView+JSQMessages.h in Headers */,
+				A45AE42F202E11FD00A2C88C /* JSQMessagesCollectionView.h in Headers */,
+				A45AE417202E11C400A2C88C /* JSQMessagesTimestampFormatter.h in Headers */,
+				A45AE431202E11FD00A2C88C /* JSQMessagesCollectionViewCellIncoming.h in Headers */,
+				A45AE41C202E11DA00A2C88C /* JSQMessagesBubblesSizeCalculator.h in Headers */,
+				A45AE437202E11FD00A2C88C /* JSQMessagesMediaPlaceholderView.h in Headers */,
+				A45AE428202E11EC00A2C88C /* JSQMessagesAvatarImage.h in Headers */,
+				A45AE42D202E11EC00A2C88C /* JSQVideoMediaItem.h in Headers */,
+				A45AE42A202E11EC00A2C88C /* JSQMessagesCollectionViewDataSource.h in Headers */,
+				A45AE429202E11EC00A2C88C /* JSQMessagesBubbleImage.h in Headers */,
+				A45AE424202E11EC00A2C88C /* JSQMessageAvatarImageDataSource.h in Headers */,
+				A45AE426202E11EC00A2C88C /* JSQMessageData.h in Headers */,
+				A45AE418202E11C400A2C88C /* JSQMessagesToolbarButtonFactory.h in Headers */,
+				A45AE40B202E11A500A2C88C /* JSQSystemSoundPlayer+JSQMessages.h in Headers */,
+				A45AE439202E11FD00A2C88C /* JSQMessagesTypingIndicatorFooterView.h in Headers */,
+				A45AE432202E11FD00A2C88C /* JSQMessagesCollectionViewCellOutgoing.h in Headers */,
+				A45AE421202E11EC00A2C88C /* JSQLocationMediaItem.h in Headers */,
+				A45AE435202E11FD00A2C88C /* JSQMessagesLabel.h in Headers */,
+				A45AE41D202E11DA00A2C88C /* JSQMessagesCollectionViewFlowLayout.h in Headers */,
+				A45AE434202E11FD00A2C88C /* JSQMessagesInputToolbar.h in Headers */,
+				A45AE415202E11C400A2C88C /* JSQMessagesBubbleImageFactory.h in Headers */,
+				A45AE430202E11FD00A2C88C /* JSQMessagesCollectionViewCell.h in Headers */,
+				A45AE427202E11EC00A2C88C /* JSQMessageMediaData.h in Headers */,
+				A45AE41B202E11DA00A2C88C /* JSQMessagesBubbleSizeCalculating.h in Headers */,
+				A45AE42E202E11FD00A2C88C /* JSQMessagesCellTextView.h in Headers */,
+				A45AE40F202E11B300A2C88C /* UIDevice+JSQMessages.h in Headers */,
+				A45AE41F202E11DA00A2C88C /* JSQMessagesCollectionViewLayoutAttributes.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		88A25F0119D8DEC400924534 /* JSQMessages */ = {
 			isa = PBXNativeTarget;
@@ -611,6 +715,7 @@
 				88A25EFE19D8DEC400924534 /* Sources */,
 				88A25EFF19D8DEC400924534 /* Frameworks */,
 				88A25F0019D8DEC400924534 /* Resources */,
+				A45AE40A202E119300A2C88C /* Headers */,
 			);
 			buildRules = (
 			);
